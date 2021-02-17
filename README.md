@@ -1,4 +1,4 @@
-# Plantilla de talleres
+# Taller de Python
 
 <div align="center">
     <img width="200" src="/docs/images/logoasl.png" alt="Aula Software Libre de la UCO">
