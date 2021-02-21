@@ -1,6 +1,6 @@
 # Intérprete de Python
 
-![Interprete](/images/interprete.jpg)
+![Interprete](images/interprete.jpg)
 
 Al instalar Python se nos instalará también su interprete con el que podremos crear ejecutar programas de Python para acceder a el en linux simplemente debemos abrir una terminal y ejecutar el siguiente comando:
 

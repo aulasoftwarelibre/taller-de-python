@@ -1,6 +1,6 @@
 # Instalación
 
-![Instalacion](/images/install.png)
+![Instalacion](images/install.png)
 
 Ubuntu 20.04 y otras versiones de Debian Linux se entregan con Python 3 preinstalado. Para asegurarnos de que nuestras versiones estén actualizadas, ejecutaremos los siguientes comandos:
 
