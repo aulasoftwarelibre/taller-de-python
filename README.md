@@ -1,4 +1,4 @@
-# Taller de Python
+# Taller de introducción a Python
 
 <div align="center">
     <img width="200" src="/docs/images/logoasl.png" alt="Aula Software Libre de la UCO">
@@ -10,9 +10,29 @@
 
 </div>
 
-Esta plantilla se puede usar para documentar los talleres y actividades del [Aula de Software Libre de la Universidad de Córdoba](https://www.uco.es/aulasoftwarelibre).
+Este taller forma parte de las actividades del [Aula de Software Libre de la
+Universidad de Córdoba](https://www.uco.es/aulasoftwarelibre).
 
-Simplemente usa el botón "Use this template" en vez de clonar el repositorio desde Github.
+El contenido del mismo es en parte de producción propia, en parte de otros
+manuales libres que pueden encontrarse en la sección de [Referencias](docs/referencias.md).
+
+## Contenido:
+
+- Inicio
+- ¿Que es Python?
+- ¿Para que se utiliza Python?
+- Instalación
+- Intérprete
+- Entorno de trabajo
+- Referencias
+
+## Agradecimientos
+
+Este curso ha sido impartido por las siguientes personas:
+
+- [Adrián López](https://github.com/AdrianLopezGue)
+- [Älvaro Prieto](https://github.com/AdoenLunnae)
+- [Marcos Rivera](https://github.com/MarcosRigal)
 
 ## Licencia
 

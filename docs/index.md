@@ -1,9 +1,30 @@
-# Plantilla de talleres
+# Inicio
 
 ![Aula Software Libre de la UCO](images/logo-cuadrado-invertido.svg)
 
-Esta plantilla se puede usar para documentar los talleres y actividades del [Aula de Software Libre de la
+Este taller forma parte de las actividades del [Aula de Software Libre de la
 Universidad de Córdoba](https://www.uco.es/aulasoftwarelibre).
+
+El contenido del mismo es en parte de producción propia, en parte de otros
+manuales libres que pueden encontrarse en la sección de [Referencias](docs/referencias.md).
+
+## Contenido
+
+- Inicio
+- ¿Que es Python?
+- ¿Para que se utiliza Python?
+- Instalación
+- Intérprete
+- Entorno de trabajo
+- Referencias
+
+## Agradecimientos
+
+Este curso ha sido impartido por las siguientes personas:
+
+- [Adrián López](https://github.com/AdrianLopezGue)
+- [Álvaro Prieto](https://github.com/AdoenLunnae)
+- [Marcos Rivera](https://github.com/MarcosRigal)
 
 ## Licencia
 
