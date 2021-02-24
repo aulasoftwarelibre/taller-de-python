@@ -30,4 +30,14 @@ Creamos un nuevo fichero que se llame holamundo.py
 
 ![NewFile](images/new-file.png)
 
-Ahora se nos abrirá el archivo que acabamos de crear. Aquí ya podemos comenzar a hacer nuestros programas y  
+Ahora se nos abrirá el archivo que acabamos de crear. Aquí ya podemos comenzar a hacer nuestros programas y como no podía ser de otra forma el primer programa que haremos será imprimir un hello world para ello copiaremos el siguiente código y lo pegaremos en el archivo acto seguido pulsaremos el botón verde de play que se encuentra arriba a la derecha para ejecutarlo.
+
+            print("Hello World")
+
+![HolaMal](images/hola-mal.png)
+
+Si has seguido los pasos al pie de la letra te habrás dado cuenta que al ejecutarlo sale un error de indentación. Esto se debe a que a diferencia de otros lenguajes como C++, Python es muy sensible a las indentaciones ya que estas reemplazan a los parentesis.
+
+Para que el programa anterior funcione simplemente debemos eliminar las indentaciones sobrantes y volver a pulsar play. Hecho esto deberíamos de haber obtenido un resultado similar al que obtuvimos en el apartado anterior con el intérprete
+
+![HolaBien](images/hola-bien.png)

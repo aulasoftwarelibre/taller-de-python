@@ -19,5 +19,5 @@ Entre los múltiples usos que se le puede dar a este lenguaje de programación d
 
 ## Desarrollo web
 
-|<div>  a <br> a <br> a <br> a <br> a <br> a </div>| <img width="200" src="https://aulasoftwarelibre.github.io/taller-de-python/images/python-django.png" alt="Python-django">|
+|<div> a <br> a <br> a <br> a <br> a <br> a <br> a </div>| <img width="200" src="https://aulasoftwarelibre.github.io/taller-de-python/images/python-django.png" alt="Python-django">|
 |---|---|
