@@ -1,4 +1,4 @@
-#Comentar como se definen las bariables
+#Comentar como se definen las variables
 
 a = 1 #int
 print(type(a))
