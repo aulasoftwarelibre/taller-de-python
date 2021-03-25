@@ -42,9 +42,46 @@ math.factorial(7) # Factorial
 # > 5040
 ```
 
-### Operaciones sobre cadenas: `string`
+### Operaciones sobre cadenas: `str`
 
-TODO
+```python
+'escribir En Mayúsuclas y miNúsculas'.capitalize()
+# > 'Escribir en mayúsuclas y minúsculas'
+
+'uno, dos, tres'.split(', ')
+# > ['uno', 'dos', 'tres']
+
+'''Esto es una cadena multilínea.
+Puedes escribir saltos de línea entre medias.
+Esto es un ejemplo y no se me ocurre qué más poner'''.splitlines()
+# > ['Esto es una cadena multilínea.', 'Puedes escribir saltos de línea entre medias.', 'Esto es un ejemplo y no se me ocurre qué más poner']
+
+entero = 3
+flotante = 2.1
+cadena = 'hola'
+
+'Igual que printf en C, puedes imprimir valores: %d' % entero
+# > 'Igual que printf en C, puedes imprimir valores: 3'
+
+'Puedes poner más de un valor: %d y "%s"' % (entero, cadena)
+# > 'Puedes poner más de un valor: 3 y "hola"'
+
+'Y puedes especificar el formato: %.3f' % flotante
+# > 'Y puedes especificar el formato: 2.100'
+
+'Otra forma de formatear es con el método "format": {}'.format(entero)
+# > 'Otra forma de formatear es con el método "format": 3'
+
+'Puedes especificar el orden: {2}, {0}, {1}'.format(entero, flotante, cadena)
+# > 'Puedes especificar el orden: hola, 3, 2.1'
+
+'O incluso llamarlos por su nombre: {n}, {f}, {c}'.format(n=entero, f=flotante, c=cadena)
+# > 'O incluso llamarlos por su nombre: 3, 2.1, hola'
+
+f'A partir de Python 3.6 puedes usar "f-strings": {entero}, {flotante:.3f}, {cadena}'
+# > 'A partir de Python 3.6 puedes usar "f-strings": 3, 2.100, hola'
+```
+
 ### Copiado de objetos: `copy`
 
 TODO
