@@ -84,7 +84,41 @@ f'A partir de Python 3.6 puedes usar "f-strings": {entero}, {flotante:.3f}, {cad
 
 ### Copiado de objetos: `copy`
 
-TODO
+```python
+a = ['hola', 'adios', 'buenas']
+b = a  # Copiamos la referencia, NO SE HACE COPIA
+b[0] = 'hastaluego'  # Estamos modificando la lista original
+print(a)
+# >> ['hastaluego', 'adios', 'buenas']
+print(b)
+# >> ['hastaluego', 'adios', 'buenas']
+
+
+import copy
+
+a = ['hola', 'adios', 'buenas']
+b = copy.copy(a)  # Creamos una copia de la lista
+b[0] = 'hastaluego'  # Estamos modificando la copia
+print(a)
+# >> ['hola', 'adios', 'buenas']
+print(b)
+# >> ['hastaluego', 'adios', 'buenas']
+
+a = [[1, 2], [3, 4], [5, 6]]
+b = copy.copy(a)  # Copiamos las referencias, pero apunta a las mismas listas
+b[0][1] = 10  # Ojo, estamos cambiando la primera lista
+print(a)
+# >> [[1, 10], [3, 4], [5, 6]]
+
+# Necesitamos una copia "profunda"
+a = [[1, 2], [3, 4], [5, 6]]
+b = copy.deepcopy(a)  # Ahora sí, creamos una copia de las listas anidadas
+b[0][1] = 10
+print(a)
+# >> [[1, 2], [3, 4], [5, 6]]
+print(b)
+# >> [[1, 10], [3, 4], [5, 6]]
+```
 
 ### Generadores aleatorios: `random`
 
