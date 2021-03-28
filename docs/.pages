@@ -1,9 +1,4 @@
 arrange:
   - index.md
-  - que-es.md
-  - usos.md
-  - instalacion.md
-  - interprete.md
-  - ide.md
-  - primeros-pasos.md
+  - Introduccion
   - referencias.md
