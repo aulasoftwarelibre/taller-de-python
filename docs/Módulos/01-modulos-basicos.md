@@ -1,14 +1,11 @@
-# Módulos 
+# Módulos básicos
 
 
 Python es un lenguaje que viene con "pilas incluidas": la librería estándar del intérprete incluye de serie multitud de *módulos*.
 
 A continuación se comentan algunos de estos módulos que te ayudarán a realizar operaciones complejas de manera inmediata.
 
-## Módulos básicos
-
-
-### Operaciones matemáticas: `math`
+## Operaciones matemáticas: `math`
 
 [Documentación](https://docs.python.org/3/library/math.html)
 
@@ -70,7 +67,7 @@ Fraction(10,9) / Fraction(7,8)
 # >> Fraction(80, 63)
 ```
 
-### Operaciones sobre cadenas: `str`
+## Operaciones sobre cadenas: `str`
 
 Uno de los puntos fuertes de Python es la facilidad del manejo de cadenas. Tenemos mucha flexibilidad para definir cadenas y además disponemos de muchas operaciones sobre ellas:
 ```python
@@ -129,7 +126,7 @@ f'A partir de Python 3.6 puedes usar "f-strings": {entero + 1}, {flotante * 2:.3
     
     Eso sí, en situaciones concretas podría tener más sentido usar uno sobre los demás. ¡Piensa bien lo que haces y ponte en el lugar de alguien leyendo tu código!
 
-### Copiado de objetos: `copy`
+## Copiado de objetos: `copy`
 
 [Documentación](https://docs.python.org/3/library/copy.html)
 
@@ -180,7 +177,7 @@ print(b)
 # >> [[1, 10], [3, 4], [5, 6]]
 ```
 
-### Generadores aleatorios: `random`
+## Generadores aleatorios: `random`
 
 [Documentación](https://docs.python.org/3/library/random.html)
 
@@ -246,7 +243,7 @@ lista
 # >> ['carol', 'eva', 'alice', 'bob']
 ```
 
-### Tiempo, fechas y horas: `time`, `datetime`, `calendar`
+## Tiempo, fechas y horas: `time`, `datetime`, `calendar`
 
 A menudo necesitamos utilidades para calcular tiempos, horas, fechas, etc. En Python lo tenemos muy fácil gracias a estos tres módulos.
 
@@ -334,26 +331,6 @@ print(f'Nací un {nombre_dia_semana}, {nacimiento.day} de {nombre_dia_mes} de {n
     Si tu aplicación necesita gestionar más de una localización (p. ej.: español de España y español de México) se desaconseja el uso de `locale.setlocale()`. Este es sólo un pequeño ejemplo.
 
 
-### Programación funcional: `itertools` y `functools`
-
-## Módulos avanzados
-
-### Expresiones regulares: `re`
-
-TODO
-
-### Manejo de rutas del sistema de archivos: `pathlib`
-
-TODO
-
-### Logging: `logging`
-
-TODO
-
-### Manejo de ficheros JSON: `json`
-
-TODO
-
-### Serialización: `pickle`
+## Programación funcional: `itertools` y `functools`
 
 TODO
