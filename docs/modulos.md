@@ -126,7 +126,52 @@ print(b)
 
 ### Generadores aleatorios: `random`
 
-TODO
+[Documentación](https://docs.python.org/3/library/random.html)
+
+```python
+import random
+
+# Por defecto, al importar "random", el intérprete toma la "semilla"
+# para generar números aleatorios de una fuente de aleatoriedad
+# del sistema. Nosotros podemos especificar la semilla que queramos
+# si, por ejemplo, queremos que nuestro código sea reproducible.
+random.seed(123)
+
+# Generar valores flotantes en el rango [0.0, 1.0)
+random.random()
+# >> 0.052363598850944326
+
+# Generar valores enteros en el rango [a, b)
+random.randrange(8) # Si solo ponemos un argumento, por defecto toma [0, a)
+# >> 1
+
+# O si queremos un rango cerrado en ambos extremos [a, b]
+random.randint(2, 8)
+# >> 8
+
+lista = ['alice', 'bob', 'carol', 'eva']
+# Elegir un elemento aleatorio de una lista
+random.choice(lista)
+# >> eva
+
+# Lo anterior es una manera más compacta de escribir:
+lista[random.randrange(len(lista))]
+# >> carol
+
+# Elegir varios elementos aletorios de una lista CON REEMPLAZO
+# Es decir, pueden salir elementos repetidos
+random.choices(lista, k=3)
+# >> ['alice', 'eva', 'alice']
+
+# Si no queremos elementos repetidos:
+random.sample(lista, 3)
+# >> ['carol', 'bob', 'alice']
+
+# Desordenar la lista
+random.shuffle(lista)
+lista
+# >> ['carol', 'eva', 'alice', 'bob']
+```
 
 ### Fechas y horas: `datetime`
 
