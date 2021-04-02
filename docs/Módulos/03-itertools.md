@@ -6,7 +6,7 @@ for elemento in iterable:
     func(elemento)
 ```
 
-Esto por supuesto incluye listas (`list`), pero también tuplas (`tuple`), cadenas (`str`) e incluso elementos que no tienen un orden predeterminado como diccionarios (`dict`) o conjuntos (`set`). Otro tipo iterable que ya conocemos es `range`. Incluso, como programadores, podemos definir objetos que sean iterables de esta manera.
+Esto por supuesto incluye listas (`list`), pero también tuplas (`tuple`), cadenas (`str`) e incluso elementos que no tienen un orden predeterminado como diccionarios (`dict`) o conjuntos (`set`). Otro tipo iterable que ya conocemos es (`range`). Incluso, como programadores, podemos definir objetos que sean iterables de esta manera.
 
 ```python
 for contador in range(5):
