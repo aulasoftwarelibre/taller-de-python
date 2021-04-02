@@ -1,0 +1,8 @@
+arrange:
+  - 00-intro.md
+  - 01-math.md
+  - 02-str.md
+  - 03-itertools.md
+  - 04-copy.md
+  - 05-random.md
+  - 06-datetime.md
