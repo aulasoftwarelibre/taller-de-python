@@ -31,7 +31,8 @@ manuales libres que pueden encontrarse en la sección de [Referencias](/referenc
 Este curso ha sido impartido por las siguientes personas:
 
 - [Adrián López](https://github.com/AdrianLopezGue)
-- [Älvaro Prieto](https://github.com/AdoenLunnae)
+- [Álvaro Prieto](https://github.com/AdoenLunnae)
+- [Javier Barbero](https://github.com/javierbg)
 - [Marcos Rivera](https://github.com/MarcosRigal)
 
 ## Licencia
