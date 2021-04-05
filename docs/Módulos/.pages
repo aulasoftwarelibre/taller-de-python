@@ -1,8 +1,9 @@
 arrange:
   - 00-intro.md
-  - 01-math.md
-  - 02-str.md
-  - 03-itertools.md
-  - 04-copy.md
-  - 05-random.md
-  - 06-datetime.md
+  - 01-carga.md
+  - 02-math.md
+  - 03-str.md
+  - 04-itertools.md
+  - 05-copy.md
+  - 06-random.md
+  - 07-datetime.md
