@@ -5,41 +5,39 @@ Si queremos que nuestro programa realice operaciones aritméticas debemos de sab
 ### Python
 
 ```python
-"""
-+ suma
-- resta
-* multiplicación
-** exponente
-/ división
-// división sin decimales
-% módulo
-= asignación
-a += b equivale a: a = a + b
-a -= b equivale a: a = a - b
-a *= b equivale a: a = a * b
-a /= b equivale a: a = a / b
-a //= b equivale a: a = a // b
-a %= b equivale a: a = a % b 
-En python no tenemos los operadores ++ o --
-para iterar tenemos que hacer uso de los
-anteriores
+# Suma
+3 + 2  # = 5
+
+# Resta
+3 - 2  # = -1
+
+# Multiplicación
+3 * 2  # = 6
+
+# Exponenciación ("elevado a")
+3 ** 2  # = 9
+
+# División con decimales (a veces denominada "true division")
+3 / 2  # = 1.5
+
+# División entera (se ignora el resto de la división)
+3 // 2  # = 1
+
+# Módulo ("resto de dividir entre...")
+3 % 2  # = 1
+
+# Abreviaturas
+a += b  # Equivalente a "a = a + b"
+a -= b  # Equivalente a "a = a - b"
+a *= b  # Equivalente a "a = a * b"
+a /= b  # Equivalente a "a = a / b"
+a //= b  # Equivalente a "a = a // b"
+a %= b  # Equivalente a "a = a % b"
+
+# En python no tenemos los operadores ++ o --
+# Para incrementar tenemos que hacer uso de los anteriores
 a +=1
 a -=1
-"""
-
-a = 3
-
-#Incremento ++a
-
-a +=1
-print(a)
-
-#Decremento  --a
-
-a -= 1
-print(a)
-
-#No existe una equivalencia de a++ o a--
 ```
 
 ### C++
