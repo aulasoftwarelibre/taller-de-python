@@ -36,11 +36,11 @@ Ahora se nos abrirá el archivo que acabamos de crear. Aquí ya podemos comenzar
 
 ![HolaMal](images/hola-mal.png)
 
-Si has seguido los pasos al pie de la letra te habrás dado cuenta que al ejecutarlo sale un error de indentación. Esto se debe a que a diferencia de otros lenguajes como C++, Python es muy sensible a las indentaciones ya que estas reemplazan a los parentesis.
+Si has seguido los pasos al pie de la letra te habrás dado cuenta que al ejecutarlo sale un error de indentación. Esto se debe a que a diferencia de otros lenguajes como C++, Python es sensible a las indentaciones ya que estas reemplazan a los paréntesis.
 
-Para que el programa anterior funcione simplemente debemos eliminar las indentaciones sobrantes y volver a pulsar play. Hecho esto deberíamos de haber obtenido un resultado similar al que obtuvimos en el apartado anterior con el intérprete
+Para que el programa anterior funcione simplemente debemos eliminar las indentaciones sobrantes y volver a pulsar *Play*. Hecho esto deberíamos de haber obtenido un resultado similar al que obtuvimos en el apartado anterior con el intérprete
 
 ![HolaBien](images/hola-bien.png)
 
 
-Una vez hemos hecho nuestro primer programa llega la hora de profundizar un poco más en este lenguaje. Para ayudar a relacionar conceptos y entenderlo todo un poco mejor todos los ejemplos de código del curso estarán acompañados de una implementación similar en C++ que puede ser compliada y ejecutada para comprobar los resultados y ver las similitudes y diferencias entre ambos lenguajes.
+Una vez hemos hecho nuestro primer programa llega la hora de profundizar un poco más en este lenguaje. Para ayudar a relacionar conceptos y entenderlo todo un poco mejor todos los ejemplos de código del curso estarán acompañados de una implementación similar en C++ que puede ser compilada y ejecutada para comprobar los resultados y ver las similitudes y diferencias entre ambos lenguajes.

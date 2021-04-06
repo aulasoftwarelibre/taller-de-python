@@ -1,6 +1,10 @@
 # Funciones
 
-Si queremos que hacer que nuestro codigo sea lo más mantenible posible a lo largo del tiempo pudiendo  añadir nuevas funcionalidades si que ello suponga un exceso de carga de trabajo debemos de considerar hacer uso de las funciones. Las funciones nos permiten simplificar nuestro programa eliminando bloques de código que se pueden llegar a repetir. Por ejemplo buscar la posición de un elemento en un vector o decir si un número es primo. Si utilizamos funciones podremos separar estas funcionalidades en pequeños bloques de codigo independientes a los que únicamente llamaremos cuando realmente sean necesario pasándole (o no) una serie de valores de entrada para que nos devuelvan una determinada salida.  
+Si queremos que hacer que nuestro código sea lo más mantenible posible a lo largo del tiempo pudiendo  añadir nuevas funcionalidades sin que ello suponga un exceso de carga de trabajo, debemos de considerar hacer uso de las funciones.
+
+Las funciones nos permiten simplificar nuestro programa, eliminando bloques de código que se pueden llegar a repetir, por ejemplo: buscar la posición de un elemento en un vector o decir si un número es primo.
+
+Si utilizamos funciones podremos separar estas funcionalidades en pequeños bloques de código independientes a los que únicamente llamaremos cuando realmente sean necesario pasándoles (o no) una serie de valores de entrada para que nos devuelvan una determinada salida.
 
 ### Python
 
@@ -47,4 +51,4 @@ void d()
 }
 ```
 
-Tal y como podemos obeservar, a diferencia de C++ las funciones de Python no equieren especificar el tipo de dato que devolverá como salida ya que como previamente hemos dicho al ser de tipado dinámico el lenguaje se encarga de todo.
+Tal y como podemos observar, a diferencia de C++ las funciones de Python no requieren especificar el tipo de dato que devolverá como salida ya que, como previamente hemos dicho, al ser de tipado dinámico el lenguaje se encarga de todo.

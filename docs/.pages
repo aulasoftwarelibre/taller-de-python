@@ -1,8 +1,14 @@
 arrange:
   - index.md
+<<<<<<< HEAD
+  - Introducción
+  - Básico
+  - Avanzado
+=======
   - Introduccion
   - Python_Básico
   - Python_Avanzado
+>>>>>>> master
   - Módulos
   - Test
   - referencias.md

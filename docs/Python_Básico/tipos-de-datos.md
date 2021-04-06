@@ -1,44 +1,67 @@
-# Tipos de Datos
+# Tipos de datos
 
-Cuando programamos, necesitamos poder almacenar información para poder utilizarla posteriormente. Para ello hacemos uso de las variables. El contenido que una variable puede almacenar dependerá del tipo de dato con el que se identifica. Así una variable de tipo bool podrá almacenar True o False pero no un 5 ya que este se corresponde con un tipo de dato int. Python es un lenguaje débilmente tipado por lo que no es necesario especificar el tipo de dato que almacenará la variable cuando la creamos ya que Python se encarga de hacerlo por nosotros. Aun así Python como todos los lenguajes posee sus propios tipos de datos que son los siguientes:
+Cuando programamos, necesitamos poder almacenar información para poder utilizarla posteriormente. Para ello hacemos uso de las *variables*.
+
+En lenguajes de tipado estático, como C o C++, el contenido que una variable puede almacenar estará limitado por su tipo asociado. Así una variable de tipo `#!c++ bool` podrá almacenar `#!c++ true` o `#!c++ false` pero no `#!c++ 5` ya que éste se corresponde con un tipo de dato `#!c++ int`.
+
+Python en cambio es un lenguaje de *tipado dinámico*, por lo que no es necesario especificar el tipo de dato que almacenará la variable cuando la creamos ya que Python se encarga de hacerlo por nosotros. Aun así, Python, como todos los lenguajes posee sus propios tipos de datos que son los siguientes:
 
 ### Python
 
 ```python
-a = 1 #int
-print(type(a))
+numero_entero = 1 #int
+print(type(numero_entero))
 
-b = "Hello World" #str
-print(type(b))
+cadena = "Hello World" #str
+print(type(cadena))
 
-c = True #bool
-print(type(c))
+booleano = True #bool
+print(type(booleano))
 
-d = 3,14 #float
-print(type(d))
+coma_flotante = 3.14 #float
+print(type(coma_flotante))
 
-e = 1j #complex
-print(type(e))
+numero_complejo = 1j #complex
+print(type(numero_complejo))
 
-f = [1, 3.3, "python"] #list es una lista de datos
-print(type(f))
+lista = [1, 3.3, "python"] #list es una lista de datos
+print(type(lista))
 
-g = (1, 3.3, "python") #tuple es una lista constante
-print(type(g))
+tupla = (1, 3.3, "python") #tuple es una lista constante
+print(type(tupla))
 
-h = {1, 3.3, "python"} #set colección de datos desordenada
-print(type(h))
+conjunto = {1, 3.3, "python"} #set colección de datos únicos desordenada
+print(type(conjunto))
 
-i = {1:"python", "key":3.3, 4.4:"a"} #dict colección de pares calve-valor
-print(type(i))
+diccionario = {1:"python", "key":3.3, 4.4:"a"} #dict colección de pares clave-valor, también denominado "tabla hash"
+print(type(diccionario))
 
-#Ejemplo de uso de una lista
+# Cómo recorrer una colección
 
-diccionario = {1:a, 2:b, 3:c, 4:d, 5:e, 6:f, 7:g, 8:h, 9:i}
+l = [numero_entero, cadena, booleano, coma_flotante,
+     numero_complejo, lista, tupla, conjunto, diccionario]
 print("------------------------")
-for j in range (1,10):
-  print(type(diccionario[j]))
+# Podemos usar un índice "j"
+for j in range(len(l)):
+  elemento = l[j]
+  print(type(elemento))
+  
+# Podemos o recorrer directamente la lista
+for elemento in l:
+  print(type(elemento))
 ```
+
+!!! warning "Cuidado"
+    En Python el siguiente código es válido:
+    ```python
+    a = 3
+    print(a)
+    a = 'cadena'
+    print(a)
+    ```
+    
+    Si bien es válido, es recomendable *evitar* en la medida de lo posible que una misma variable (en este caso `a`) haga referencia a valores de distinto tipo durante su tiempo de vida. Simplemente, ¡usa una nueva variable!
+    
 
 ### C++
 

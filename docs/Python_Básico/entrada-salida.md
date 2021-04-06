@@ -1,6 +1,6 @@
 # Entrada y Salida
 
-Cuando realizemos nuestros primeros progrmas necesitaremos hacer uso de la entrada y salida para poder interactuar con el usuario y que este pueda introducir información en nuestros programas. Para ello haremos uso de la entrada y salida por consola.
+Cuando realicemos nuestros primeros programas necesitaremos hacer uso de la entrada y salida para poder interactuar con el usuario y que éste pueda introducir información en nuestros programas. Para ello haremos uso de la entrada y salida por consola.
 
 ### Python
 
