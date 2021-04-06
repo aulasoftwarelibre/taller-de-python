@@ -22,35 +22,35 @@ expression1 if condition else expression2 #Operador ternario
 ### C++
 
 ```cpp
-  if ( condition )
-  {
-     code 
-  }
+if ( condition )
+{
+    code 
+}
 
-  else
-  {
-     code 
-  }
+else if ( condition )
+{
+    code 
+}
 
-  else if ( condition )
-  {
-     code 
-  }
-  
-  condition ? expression1 : expression1; //Operador ternario
+else
+{
+    code 
+}
 
-  switch (expression)
-  {
-  case  constant-expression :
-     code 
+condition ? expression1 : expression1; //Operador ternario
+
+switch (expression)
+{
+    case  constant-expression :
+        code 
     break;
-  
-  default:
+
+    default:
     break;
-  }
+}
 ```
 
-Podemos observar que en ambos lenguajes tenemos las mismas estructuras aunque en C++ además podemos hacer uso de la estructura Switch que en Python no está incluida. Pese a que se considera un antipatrón para todos aquellos que esteis acostumbrados a usarla esta podría ser una posible implementación en Python haciendo uso de los diccionarios:
+Podemos observar que en ambos lenguajes tenemos las mismas estructuras aunque en C++ además podemos hacer uso de la estructura Switch que en Python no está incluida. Pese a que se considera un antipatrón, podría implementarse en Python haciendo uso de los diccionarios:
 
 ### Python
 
@@ -58,85 +58,24 @@ Podemos observar que en ambos lenguajes tenemos las mismas estructuras aunque en
 
 # "main"
 mes = int(input("Introduce un numero para obtener el mes que le corresponde:"))
-switch = {
-1: "Enero",
-2: "Febrero",
-3: "Marzo",
-4: "Abril",
-5: "Mayo",
-6: "Junio",
-7: "Julio",
-8: "Agosto",
-9: "Septiembre",
-10: "Octubre",
-11: "Noviembre",
-12: "Diciembre"
+nombres_meses = {
+    1: "Enero",
+    2: "Febrero",
+    3: "Marzo",
+    4: "Abril",
+    5: "Mayo",
+    6: "Junio",
+    7: "Julio",
+    8: "Agosto",
+    9: "Septiembre",
+    10: "Octubre",
+    11: "Noviembre",
+    12: "Diciembre"
 }
-print(switch.get(mes, "No existe un mes equivalente al numero introducido"))
-
+print(nombres_meses.get(mes, "No existe un mes equivalente al número introducido"))
 ```
 
-Y ésta sería una posible implementación en el caso de que quisiésemos utilizar funciones (se verán posteriormente):
-
-```python
-
-def uno():
-    print("Enero")
- 
-def dos():
-    print("Febrero")
- 
-def tres():
-    print("Marzo")
- 
-def cuatro():
-    print("Abril")
- 
-def cinco():
-    print("Mayo")
- 
-def seis():
-    print("Junio")
- 
-def siete():
-    print("Julio")
- 
-def ocho():
-    print("Agosto")
- 
-def nueve():
-    print("Septiembre")
- 
-def diez():
-    print("Octubre")
- 
-def once():
-    print("Noviembre")
- 
-def doce():
-    print("Diciembre")
- 
- 
-# "main"
-mes=int(input("Introduce un numero para obtener el mes que le corresponde: "))
-switch = {
-    1: uno,
-    2: dos,
-    3: tres,
-    4: cuatro,
-    5: cinco,
-    6: seis,
-    7: siete,
-    8: ocho,
-    9: nueve,
-    10: diez,
-    11: once,
-    12: doce
-}
-# Obtiene la función del diccionario. 
-# Si argument no se corresponde con ningún indice 
-# func obtendrá la función lambda equivaliendo esto al default
-func = switch.get(mes, lambda: print("No existe un mes equivalente al numero introducido"))
-# Para ejecutar la función obtenida usamos:
-func()
-```
+!!! tip "Ojo"
+    En el ejemplo anterior, hemos usado `#!python nombres_meses.get(mes, valor)` en lugar de `#!python nombres_meses[mes]`. La función `get` nos permite dar un valor *por defecto*, en caso de que la clave no exista en el diccionario.
+    
+    Por ejemplo, si el usuario introduce el valor `#!python 14`, `#!python nombres_meses[14]` dará un error que terminará el programa.
