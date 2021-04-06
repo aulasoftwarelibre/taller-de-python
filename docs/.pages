@@ -1,8 +1,8 @@
 arrange:
   - index.md
   - Introduccion
-  - Básico
-  - Avanzado
+  - Python_Básico
+  - Python_Avanzado
   - Módulos
-  - TDD
+  - Test
   - referencias.md
