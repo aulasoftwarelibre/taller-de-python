@@ -1,6 +1,6 @@
 # Operadores Aritméticos
 
-Si queremos que nuestro programa realice operaciones aritméticas debemos de saber cuales son y como funcionan estos operadores
+Si queremos que nuestro programa realice operaciones aritméticas debemos de saber cuáles son y cómo funcionan estos operadores
 
 ### Python
 

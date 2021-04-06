@@ -76,7 +76,7 @@ print(switch.get(mes, "No existe un mes equivalente al numero introducido"))
 
 ```
 
-Y esta sería una posible implementación en el caso de que quisiesemos utilizar funciones (se verán posteriormente):
+Y ésta sería una posible implementación en el caso de que quisiésemos utilizar funciones (se verán posteriormente):
 
 ```python
 

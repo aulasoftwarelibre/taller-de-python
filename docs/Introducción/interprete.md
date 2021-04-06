@@ -6,7 +6,7 @@ Al instalar Python se nos instalará también su interprete con el que podremos 
 
       python3
 
-Una vez abierto nuestra consola estará asi:
+Una vez abierto en nuestra consola aparecerá lo siguiente:
 
       Python 3.8.5 (default, Jul 28 2020, 12:59:40) 
       [GCC 9.3.0] on linux
@@ -17,7 +17,7 @@ Ahora podemos crear y ejecutar programas empecemos por el clásico Hola Mundo es
 
       print("Hello World")
 
-Tras esto nuestra consola estará así:
+Tras esto en nuestra consola aparecerá lo siguiente:
 
       Python 3.8.5 (default, Jul 28 2020, 12:59:40) 
       [GCC 9.3.0] on linux
