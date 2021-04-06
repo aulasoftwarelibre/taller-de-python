@@ -1,4 +1,5 @@
 arrange:
   - TDD.md
   - Pytest.md
+  - Sintaxis.md
   - Ejercicio.md
