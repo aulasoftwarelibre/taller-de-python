@@ -79,3 +79,40 @@ int main(int argc, char const *argv[])
   return 0;
 }
 ```
+
+!!! warning "Cuidado"
+    En C/C++, la asignación (`#!c =`) se considera un operador, cuyo valor es el valor de la variable de la izquierda del `#!c =` después de realizar la asignación. Por tanto, la siguiente línea es totalmente válida:
+    
+    ```c
+    int a, b;
+    a = b = 3;
+    // Equivalente a:
+    a = (b = 3);
+    // Tanto "a" como "b" tienen asignados el valor 3
+    ```
+    
+    Esto puede leerse como:
+    
+    * La sentencia `#!c a = (b = 3)` consiste en evaluar la expresión `#!c a = (b = 3)`
+        * Evaluar la expresión `#!c a = (b = 3)` consiste en evaluar la expresión `#!c b = 3` y asignar su valor a `#!c a`, el valor de la expresión es el nuevo valor de `#!c a`.
+            * Evaluar la expresión `#!c b = 3` consiste en evaluar la expresión `#!c 3` y asignar su valor a `#!c b`, el valor de la expresión es el nuevo valor de `#!c b`.
+    
+    Aunque puede ser útil y elegante en ocasiones, en otras puede ser una mala práctica. El problema más común que nos podemos encontrar es una errata del siguiente tipo:
+    ```c
+    int a;
+    // ...
+    if (a = 3) { // Errata: realmente queríamos comparar si "a == 3"
+                 // En su lugar, se asignará el valor 3 a "a" y se
+                 // ejecutará el bloque ya que 3 != 0
+        // ...
+    }
+    ```
+    
+    En Python, la asignación *NO es un operador*, sino una sentencia
+    ```python
+    a = 3  # Válido
+    if a = 3:  # Error de sintáxis, el programa falla
+        ...
+    ```
+    
+    Recientemente se añadió al estándar el *operador morsa* (`#!python :=`) que funciona como la asignación de C, pero generalmente sólo es útil en situaciones muy concretas, puedes ignorarlo por ahora.
