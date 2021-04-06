@@ -1,2 +1,10 @@
 arrange:
   - comentarios.md
+  - tipos-de-datos.md
+  - entrada-salida.md
+  - cadenas.md
+  - operadores-aritmeticos.md
+  - operadores-logicos.md
+  - condicionales.md
+  - bucles.md
+  - funciones.md
