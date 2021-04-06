@@ -55,7 +55,7 @@ Por último mencionar que, de base, también podemos trabajar con datos numéric
 # >> (-19+58j)
 
 # Fracciones
-from fractions import fraction
+from fractions import Fraction
 Fraction(10,9) / Fraction(7,8)
 # >> Fraction(80, 63)
 ```
