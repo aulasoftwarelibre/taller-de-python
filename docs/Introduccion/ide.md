@@ -1,6 +1,6 @@
 # Entorno de Trabajo
 
-![IDE](images/ide.png)
+![IDE](/images/ide.png)
 
 Nosotros en este taller trabajaremos con Visual Studio Code ya que cuenta con una gran variedad de extensiones que nos serán de utilidad a la hora de desarrollar. Ademas cuenta con una terminal integrada en la que podremos ejecutar facilmente los programas que vayamos realizando.
 
@@ -41,3 +41,6 @@ Si has seguido los pasos al pie de la letra te habrás dado cuenta que al ejecut
 Para que el programa anterior funcione simplemente debemos eliminar las indentaciones sobrantes y volver a pulsar play. Hecho esto deberíamos de haber obtenido un resultado similar al que obtuvimos en el apartado anterior con el intérprete
 
 ![HolaBien](images/hola-bien.png)
+
+
+Una vez hemos hecho nuestro primer programa llega la hora de profundizar un poco más en este lenguaje. Para ayudar a relacionar conceptos y entenderlo todo un poco mejor todos los ejemplos de código del curso estarán acompañados de una implementación similar en C++ que puede ser compliada y ejecutada para comprobar los resultados y ver las similitudes y diferencias entre ambos lenguajes.

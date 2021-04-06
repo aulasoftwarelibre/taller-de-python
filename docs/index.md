@@ -10,13 +10,12 @@ manuales libres que pueden encontrarse en la sección de [Referencias](/referenc
 
 ## Contenido
 
-- Inicio
-- ¿Que es Python?
-- ¿Para que se utiliza Python?
-- Instalación
-- Intérprete
-- Entorno de trabajo
-- Referencias
+- [Introducción](/Introduccion/que-es)
+- [Básico](/Básico/comentarios)
+- [Avanzado](/Avanzado/Poo)
+- [Módulos](/Módulos/00-intro)
+- [TDD](/TDD/Pytest)
+- [Referencias](/referencias)
 
 ## Agradecimientos
 
@@ -24,6 +23,7 @@ Este curso ha sido impartido por las siguientes personas:
 
 - [Adrián López](https://github.com/AdrianLopezGue)
 - [Álvaro Prieto](https://github.com/AdoenLunnae)
+- [Javier Barbero](https://github.com/javierbg)
 - [Marcos Rivera](https://github.com/MarcosRigal)
 
 ## Licencia

@@ -1,8 +1,4 @@
-# Primeros Pasos
-
-Una vez hemos hecho nuestro primer programa llega la hora de profundizar un poco más en este lenguaje. Para ayudar a relacionar conceptos y entenderlo todo un poco mejor todos los ejemplos de código del curso estarán acompañados de una implementación similar en C++ que puede ser compliada y ejecutada para comprobar los resultados y ver las similitudes y diferencias entre ambos lenguajes.
-
-## Comentarios
+# Comentarios
 
 Una de las cosas más importantes a la hora de programar son los comentarios. En Python como en otros muchos lenguajes existen distintos tipos de comentarios que usaremos en base al contexto y a nuestras necesidades. 
 
