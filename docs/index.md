@@ -14,7 +14,7 @@ manuales libres que pueden encontrarse en la sección de [Referencias](/referenc
 - [Básico](/Básico/comentarios)
 - [Avanzado](/Avanzado/Poo)
 - [Módulos](/Módulos/00-intro)
-- [TDD](/TDD/Pytest)
+- [Test](/Test/TDD)
 - [Referencias](/referencias)
 
 ## Agradecimientos
