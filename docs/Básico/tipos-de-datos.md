@@ -51,6 +51,18 @@ for elemento in l:
   print(type(elemento))
 ```
 
+!!! warning "Cuidado"
+    En Python el siguiente código es válido:
+    ```python
+    a = 3
+    print(a)
+    a = 'cadena'
+    print(a)
+    ```
+    
+    Si bien es válido, es recomendable *evitar* en la medida de lo posible que una misma variable (en este caso `a`) haga referencia a valores de distinto tipo durante su tiempo de vida. Simplemente, ¡usa una nueva variable!
+    
+
 ### C++
 
 ```cpp
