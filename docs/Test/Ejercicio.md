@@ -54,4 +54,4 @@ Y si todo ha ido bien obtendremos un resultado similar a este:
       ====================================== 1 passed in 0.01s ======================================
 
 
-Hecho esto ahora te toca a tí, implementa unos test que comprueben que pasa si queremos calcular el factorital de 0 y otros que comprueben que pasa si queremos calcular el factorial de un numero negativo. Observa los resultados y refactoriza la función si es necesario.
+Hecho esto ahora te toca a tí, implementa unos test que comprueben que pasa si queremos calcular el factorial de 0 y otros que comprueben que pasa si queremos calcular el factorial de un numero negativo. Observa los resultados y refactoriza la función si es necesario.
