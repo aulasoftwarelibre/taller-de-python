@@ -6,10 +6,12 @@ En python los ficheros se abren con la función open(). Como primer parámetro s
 
 ## Abrir ficheros
 
-- Abrir fichero de lectura :                f = open("fichero.txt", "r")
-- Abrir fichero de lectura en binario :     f = open("fichero.txt", "rb")
+- Abrir fichero para lectura :              f = open("fichero.txt", "r")
+- Abrir fichero para lectura en binario :   f = open("fichero.txt", "rb")
 - Abrir fichero para escribir desde cero :  f = open ("fichero.txt", "w")
 - Abrir fichero para añadir al final :      f = open ("fichero.txt", "a")
+- Abrir fichero para lectura y escritura :  f = open("fichero.txt", "r+")
+
 
 ## Leer de ficheros
 
