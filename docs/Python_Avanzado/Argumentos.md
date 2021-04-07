@@ -8,10 +8,10 @@ En Python existen distintos tipos de argumentos que debemos de conocer ya que en
 
 - Los argumentos obligatorios: son argumentos que se deben pasar a la función.
 
-- Los argumentos opcionales: son argumentos que no se pueden pasar a la función. En python, los argumentos opcionales son argumentos que tienen un valor predeterminado.
+- Los argumentos opcionales: son argumentos que no es necesario especificar. En Python, los argumentos opcionales son argumentos que tienen un valor predeterminado.
 
 La forma en que se pasa el valor a la función determina si son argumentos posicionales o argumentos de palabra clave .
-Por ejemplo, las tres siguientes llamadas a la función rectangleArea() serían válidas y devolverían el mismo resultado.
+Por ejemplo, las tres siguientes llamadas a la función `rectangleArea()` serían válidas y devolverían el mismo resultado.
 
 ```Python
 def rectangleArea(width, height):

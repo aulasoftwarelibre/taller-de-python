@@ -12,16 +12,10 @@ Su uso se popularizó a principios de la década de 1990 y en la actualidad resu
 
 Pues es muy sencillo ya que la sintaxis como siempre es muy similar a la de otros lenguajes. En este caso vamos a poner un ejemplo creando una clase persona de la que heredará la clase informático.
 
-Y lo único que debemos de tener presente es que a diferencia de C++ que lo pone automáticamente en Python las funciones de la clase reciben como parámetro el objeto que las llama es por eso que ponermo (self). Sería equivalente al puntero this en C++.
+Y lo único que debemos de tener presente es que a diferencia de C++ que lo pone automáticamente en Python las funciones de la clase reciben como parámetro el objeto que las llama es por eso que ponemos `self`. Sería equivalente al puntero `this` en C++.
 
 ```Python
-class persona: #Clase persona
-  
-  nombre_ #Variable que almacena el nobre de la persona
-  apellidos_ #Variable que almacena los apellidos_ de la persona
-  altura_ #Variable que almacena la edad_ de la persona
-  edad_ #Variable que almacena la edad_ de la persona
-  
+class Persona: #Clase persona
   def __init__(self, nombre, apellidos, altura, edad): #Constructor
    self.nombre_ = nombre
    self.apellidos_ = apellidos
@@ -62,7 +56,7 @@ class persona: #Clase persona
     return "zZz"
 
 
-class Informatico(persona): # Informático hereda de forma pública de persona
+class Informatico(Persona): # Informático hereda de forma pública de persona
   
   lenguajes_
   experiencia_
