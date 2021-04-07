@@ -15,11 +15,13 @@ print(h_letters)
 
 Cuando ejecutamos el programa, la salida será:
 
+```
 ['h', 'u', 'm', 'a', 'n']
+```
 
 Sin embargo, Python tiene una forma más sencilla de resolver este problema mediante la composición de listas. La composición de listas es una forma elegante de definir y crear listas basadas en listas existentes.
 
-## Sintaxis de la comprensión de listas
+## Sintaxis de la composición de lista (*list comprehension*)
 
 ```Python
 [expresion for item in list]
@@ -31,11 +33,13 @@ Veamos cómo se puede escribir el programa anterior usando las composiciones de 
 
 ```Python
 h_letters = [ letter for letter in 'human' ]
-print( h_letters)
+print(h_letters)
 ```
 Cuando ejecutamos el programa, la salida será:
 
+```
 ['h', 'u', 'm', 'a', 'n']
+```
 
 En el ejemplo anterior, se asigna una nueva lista a la variable h_letters, y la lista contiene los elementos de la cadena iterable 'human'. Llamamos a la función print() para imprimir la salida.
 
@@ -48,16 +52,32 @@ Podemos complicarlo todo lo que queramos y por ejemplo añadir condicionales. An
 lista = []
 
 # Añadimos valores a la `lista`
-for n in range(0,11):
-    if n%2==0: #se ejecuta la condición en este caso que el número sea par
+for n in range(0, 11):
+    if (n % 2) == 0: #se ejecuta la condición en este caso que el número sea par
         lista.append(n**2) #elevamos el numero al cuadrado y lo añadimos a la lista
 
 # imprimimos la `lista`
 print(lista)
 
 # Inicializamos la `lista`
-lista = [n**2 for n in range(0,12) if n%2==0] #Es lo mismo que antes pero en una sola linea
+lista = [n**2 for n in range(0, 12) if (n % 2) == 0] #Es lo mismo que antes pero en una sola linea
 
 # Imprimimos la `lista`
 print(lista)
 ```
+
+!!! tip "Consejo"
+    En general, cualquier bloque de la forma:
+    
+    ```python
+    lista = []
+    for elemento in iterable:
+        if condicion:
+            lista.append(expresion)
+    ```
+    
+    Se puede sustituir por la composición de lista siguiente:
+    
+    ```python
+    lista = [expresion for elemento in iterable if condicion]
+    ```
