@@ -16,6 +16,8 @@ Universidad de Córdoba](https://www.uco.es/aulasoftwarelibre).
 El contenido del mismo es en parte de producción propia, en parte de otros
 manuales libres que pueden encontrarse en la sección de [Referencias](/referencias).
 
+Sitio web: https://aulasoftwarelibre.github.io/taller-de-python/
+
 ## Contenido:
 
 - Inicio

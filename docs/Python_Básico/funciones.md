@@ -6,49 +6,49 @@ Las funciones nos permiten simplificar nuestro programa, eliminando bloques de c
 
 Si utilizamos funciones podremos separar estas funcionalidades en pequeños bloques de código independientes a los que únicamente llamaremos cuando realmente sean necesario pasándoles (o no) una serie de valores de entrada para que nos devuelvan una determinada salida.
 
-### Python
+=== "Python"
 
-```python
-def a(b):
-  return 1+b
+    ```python
+    def a(b):
+      return 1+b
 
-def b(i, f):
-  return 1.3+f
+    def b(i, f):
+      return 1.3+f
 
-def c():
-  return True
+    def c():
+      return True
 
-def d():
-  print("hola")
-```
+    def d():
+      print("hola")
+    ```
 
-### C++
+=== "C++"
 
-```cpp
-#include <cstdio>
-#include <cstdlib>
-#include <iostream>
-using namespace std;
+    ```cpp
+    #include <cstdio>
+    #include <cstdlib>
+    #include <iostream>
+    using namespace std;
 
-int a(int b)
-{
-  return 1+b;
-}
+    int a(int b)
+    {
+      return 1+b;
+    }
 
-float b(int b, float a)
-{
-  return 1.3+a;
-}
+    float b(int b, float a)
+    {
+      return 1.3+a;
+    }
 
-bool c()
-{
-  return true;
-}
+    bool c()
+    {
+      return true;
+    }
 
-void d()
-{
-  cout<<"hola"<<"\n";
-}
-```
+    void d()
+    {
+      cout<<"hola"<<"\n";
+    }
+    ```
 
 Tal y como podemos observar, a diferencia de C++ las funciones de Python no requieren especificar el tipo de dato que devolverá como salida ya que, como previamente hemos dicho, al ser de tipado dinámico el lenguaje se encarga de todo.

@@ -29,7 +29,7 @@ Para escribir el fichero haremos uso de `#!python f.write()` y la forma de escri
 
 - Para escribir el fichero desde cero, machacando su contenido si lo hubiera: `#!python f = open("fichero.txt","w")`
 
-- Para escribir el fichero desde cero, machacando su contenido si lo hubiera: `#!python f = open("fichero.txt","a")`
+- Para añadir contenido al fichero sin borrar lo anterior: `#!python f = open("fichero.txt","a")`
 
 ## Moverse por el fichero
 

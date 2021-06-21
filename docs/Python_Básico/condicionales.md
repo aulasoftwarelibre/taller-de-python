@@ -2,57 +2,56 @@
 
 Conforme vayamos avanzando nuestros programas serán cada vez más complicados y es posible que necesitemos hacer uso de estructuras condicionales que nos permitan direccionar ejecutar determinadas secciones de nuestro codigo si se cumplen determinadas condiciones. Para ello haremos uso de las estructuras condicionales que en Python son las siguientes:
 
-### Python
+=== "Python"
 
-```python
+    ```python
 
-if expression:
-  code
+    if expression:
+        code
 
-elif expression:
-  code
+    elif expression:
+        code
 
-else:
-  code
+    else:
+        code
 
-expression1 if condition else expression2 #Operador ternario
+    expression1 if condition else expression2 #Operador ternario
 
-```
+    ```
 
-### C++
+=== "C++"
 
-```cpp
-if ( condition )
-{
-    code 
-}
-
-else if ( condition )
-{
-    code 
-}
-
-else
-{
-    code 
-}
-
-condition ? expression1 : expression1; //Operador ternario
-
-switch (expression)
-{
-    case  constant-expression :
+    ```cpp
+    if ( condition )
+    {
         code 
-    break;
+    }
 
-    default:
-    break;
-}
-```
+    else if ( condition )
+    {
+        code 
+    }
+
+    else
+    {
+        code 
+    }
+
+    condition ? expression1 : expression1; //Operador ternario
+
+    switch (expression)
+    {
+        case  constant-expression :
+            code 
+        break;
+
+        default:
+        break;
+    }
+    ```
 
 Podemos observar que en ambos lenguajes tenemos las mismas estructuras aunque en C++ además podemos hacer uso de la estructura Switch que en Python no está incluida. Pese a que se considera un antipatrón, podría implementarse en Python haciendo uso de los diccionarios:
 
-### Python
 
 ```python
 

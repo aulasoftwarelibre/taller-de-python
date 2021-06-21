@@ -10,12 +10,13 @@ manuales libres que pueden encontrarse en la sección de [Referencias](/referenc
 
 ## Contenido
 
-- [Introducción](/Introducción/que-es)
-- [Python Básico](/Python_Básico/comentarios)
-- [Python Avanzado](/Python_Avanzado/Ficheros)
-- [Módulos](/Módulos/00-intro)
-- [Test](/Test/TDD)
-- [Referencias](/referencias)
+- [Introducción](Introducción/que-es)
+- [Python Básico](Python_Básico/comentarios)
+- [Python Avanzado](Python_Avanzado/Ficheros)
+- [Módulos](Módulos/00-intro)
+- [Testing](Testing/TDD)
+- [Ciencia de Datos con Python](ia)
+- [Referencias](referencias)
 
 ## Agradecimientos
 
